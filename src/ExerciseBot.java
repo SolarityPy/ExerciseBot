@@ -11,7 +11,7 @@ public class ExerciseBot {
 
         switch (choice) {
             case 1:
-                System.out.println("exercise method here");
+                LogExercise.log();
             case 2:
                 System.out.println("list exercise method here");
             default:
