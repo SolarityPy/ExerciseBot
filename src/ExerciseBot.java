@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class ExerciseBot {
     public static void main(String[] args) {
+        ExerciseBot.clear();
         System.out.println("Welcome to the exercise bot! Please choose an option.\n");
         System.out.println("[1] Log Exercise");
         System.out.println("[2] List Exercise Logs\n");

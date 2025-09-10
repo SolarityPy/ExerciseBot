@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class LogExercise {
     public static void log() {
         ExerciseBot.clear();
-        System.out.println("What would you like to log?");
+        System.out.println("Return home? ");
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+        ExerciseBot.main(null);
+
     }
 }
