@@ -12,10 +12,13 @@ public class ExerciseBot {
         switch (choice) {
             case 1:
                 LogExercise.log();
+                break;
             case 2:
                 System.out.println("list exercise method here");
+                break;
             default:
                 System.out.println("Invalid choice! Try again.");
+                break;
         }
     }
     public static void clear() {
