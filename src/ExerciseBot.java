@@ -16,7 +16,6 @@ public class ExerciseBot {
                 System.out.println("list exercise method here");
             default:
                 System.out.println("Invalid choice! Try again.");
-                main();
         }
 
     }
