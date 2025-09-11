@@ -18,7 +18,7 @@ public class ExerciseBot {
                 LogExercise.log(exerciseLogs);
                 break;
             case 2:
-                System.out.println("list exercise method here");
+                ViewLogs.view(exerciseLogs);
                 break;
             default:
                 System.out.println("Invalid choice! Try again.");
