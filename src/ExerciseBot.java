@@ -1,5 +1,8 @@
 import java.util.Scanner;
+import java.util.LinkedHashMap;
+
 public class ExerciseBot {
+    LinkedHashMap<String, Integer> exerciseLogs = new LinkedHashMap<>();
     public static void main(String[] args) {
         ExerciseBot.clear();
         System.out.println("Welcome to the exercise bot! Please choose an option.\n");
