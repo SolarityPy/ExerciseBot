@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.LinkedHashMap;
 
@@ -11,19 +12,25 @@ public class ExerciseBot {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("[?] Choice: ");
-        int choice = scanner.nextInt();
 
-        switch (choice) {
-            case 1:
-                LogExercise.log(exerciseLogs);
-                break;
-            case 2:
-                ViewLogs.view(exerciseLogs);
-                break;
-            default:
-                System.out.println("Invalid choice! Try again.");
-                break;
+        try {
+            int choice = scanner.nextInt();
+            switch (choice) {
+                case 1:
+                    LogExercise.log(exerciseLogs);
+                    break;
+                case 2:
+                    ViewLogs.view(exerciseLogs);
+                    break;
+                default:
+                    System.out.println("Invalid choice! Try again.");
+                    main(null);
+            }
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Try again.");
+            main(null);
         }
+
     }
     public static void clear() {
         System.out.println("\033[H\033[2J");

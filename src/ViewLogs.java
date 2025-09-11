@@ -1,4 +1,5 @@
 import java.util.LinkedHashMap;
+import java.util.Scanner;
 
 public class ViewLogs {
     public static void view(LinkedHashMap<String, Integer> exerciseLogs) {
@@ -6,13 +7,14 @@ public class ViewLogs {
             System.out.println(exercise + ": " + exerciseLogs.get(exercise));
         }
         System.out.print("Return home? (y/n) ");
+        Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
 
         if (userInput.equals("y") || userInput.equals("yes")) {
             ExerciseBot.main(null);
         }
         else {
-            view(map);
+            view(exerciseLogs);
         }
     }
 }
