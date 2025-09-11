@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceea8608-f2cf-430c-9ec6-5ad3f44601d1" name="Changes" comment="">
+    <list default="true" id="ceea8608-f2cf-430c-9ec6-5ad3f44601d1" name="Changes" comment="Added userinput for yes and no to allow a user to choose whether they want to go back to main menu or not.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogExercise.java" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <updated>1757504442440</updated>
       <workItem from="1757504443502" duration="2000" />
       <workItem from="1757504499710" duration="1687000" />
-      <workItem from="1757594619859" duration="647000" />
+      <workItem from="1757594619859" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project files">
       <option name="closed" value="true" />
@@ -106,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757505846628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added userinput for yes and no to allow a user to choose whether they want to go back to main menu or not.">
+      <option name="closed" value="true" />
+      <created>1757595311441</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757595311441</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +124,7 @@
     <MESSAGE value="Initial project files" />
     <MESSAGE value="Added main menu + switch cases for user choice" />
     <MESSAGE value="Added project structure for classes, removed main() call in default" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added project structure for classes, removed main() call in default" />
+    <MESSAGE value="Added userinput for yes and no to allow a user to choose whether they want to go back to main menu or not." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added userinput for yes and no to allow a user to choose whether they want to go back to main menu or not." />
   </component>
 </project>
